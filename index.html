@@ -1,0 +1,15 @@
+<!doctype html>
+  <body>
+    <script type="text/javascript" src="http://repo.frba.utn.edu.ar/archivos/jcanteros/iio-sdk/iioEngine-1.2.1.js"></script>
+    <script type="text/javascript">
+ 
+        Helloiio = function(io){
+          io.addObj(new iio.ioText('Hello iio!!', io.canvas.center)
+              .setFont('30px Consolas')
+              .setTextAlign('center')
+              .setFillStyle('black'));
+        }; iio.start(Helloiio);
+ 
+    </script>
+  </body>
+</html>
